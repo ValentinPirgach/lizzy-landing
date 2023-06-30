@@ -6,7 +6,7 @@ import homeBgSmUrl from './assets/home-bg-sm.svg';
 
 const Home = () => {
   return (
-    <div className='relative mx-auto mt- max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-4 text-center lg:pt-32'>
+    <div className='relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-24 pt-4 text-center lg:pt-32'>
       <h1 className='mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl'>
         The next generation contract AI
       </h1>
@@ -42,9 +42,12 @@ const Home = () => {
       <div className='relative flex justify-center z-30 mix-blend-multiply mb-4'>
         <div className={classNames(
           'absolute',
+          'left-1/2',
+          'top-1/2',
+          '-translate-x-1/2',
+          '-translate-y-1/2',
           'w-36',
-          'top-24',
-          'left-0',
+          '-ml-32',
           'shadow-3xl',
           'bg-white',
           'rounded-md',
@@ -61,9 +64,12 @@ const Home = () => {
         </div>
         <div className={classNames(
           'absolute',
+          'left-1/2',
+          'top-1/2',
+          '-translate-x-1/2',
+          '-translate-y-1/2',
+          'ml-36',
           'w-28',
-          'top-24',
-          'right-0',
           'shadow-3xl',
           'bg-white',
           'rounded-md',
@@ -79,8 +85,29 @@ const Home = () => {
           Free version available
         </div>
 
-        <div className='absolute w-20 h-20 bg-white left-16 top-24 z-10' />
-        <PaperSm className='absolute left-16 -top-1 z-10' />
+        <div className={classNames(
+          'absolute',
+          'w-20',
+          'h-20',
+          'bg-white',
+          'left-1/2',
+          'top-1/2',
+          '-translate-x-1/2',
+          '-translate-y-1/2',
+          'z-10',
+        )} style={{marginLeft: '-102px', marginTop: '-12px'}} />
+
+        <PaperSm className={classNames(
+          'absolute',
+          'w-20',
+          'h-20',
+          'left-1/2',
+          'top-1/2',
+          '-translate-x-1/2',
+          '-translate-y-1/2',
+          'z-10',
+        )} style={{marginLeft: '-102px', marginTop: '-76px'}} />
+
         <ArtBoardSm />
       </div>
 
