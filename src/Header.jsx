@@ -5,8 +5,8 @@ import classNames from 'classnames';
 
 const Heading = () => {
   return (
-    <header className='p-4 mx-2 my-7 rounded-full shadow-[0_-2px_30px_0_rgba(0,0,0,0.15)]'>
-      <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+    <header className='fixed md:relative w-full my-7 z-50'>
+      <div className='mx-4 md:mx-auto max-w-7xl p-4 rounded-full shadow-3xl bg-white'>
         <div className='relative z-50 flex justify-between'>
           <div className='flex items-center md:gap-x-12'>
             <a aria-label='Home' href='/#'>
