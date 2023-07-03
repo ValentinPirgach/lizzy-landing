@@ -4,9 +4,6 @@ import videoAutocomplete from './assets/web_autocomplete.mp4';
 import videoDraft from './assets/web_draft.mp4';
 import videoReview from './assets/review.mp4';
 import videoAnalyse from './assets/analyse.mp4';
-import featureReviewSm from './assets/feature-review-sm.svg';
-import featureDraftSm from './assets/feature-draft-sm.svg';
-import featureAnalyseSm from './assets/feature-analyse-sm.svg';
 import { Disclosure } from '@headlessui/react'
 
 const Features = () => {
@@ -22,7 +19,6 @@ const Features = () => {
       'sm:px-6',
       'lg:px-8',
       'pb-24',
-      'pt-4',
       'text-center',
       'lg:pt-32',
       'bg-right-bottom',
