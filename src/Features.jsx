@@ -1,6 +1,9 @@
 import classNames from 'classnames';
 import featuresBgUrl from './assets/features-bg.svg';
-import featureAutocompleteSm from './assets/feature-autocomplete-sm.svg';
+import videoAutocomplete from './assets/web_autocomplete.mp4';
+import videoDraft from './assets/web_draft.mp4';
+import videoReview from './assets/review.mp4';
+import videoAnalyse from './assets/analyse.mp4';
 import featureReviewSm from './assets/feature-review-sm.svg';
 import featureDraftSm from './assets/feature-draft-sm.svg';
 import featureAnalyseSm from './assets/feature-analyse-sm.svg';
@@ -30,7 +33,7 @@ const Features = () => {
       </h1>
       
       <div>
-        <Disclosure as='div' defaultOpen className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 '>
+        <Disclosure as='div' defaultOpen className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 overflow-hidden'>
           {() => (
             <>
               <Disclosure.Button className='w-full justify-between px-4 py-5 text-center text-xl text-lizzy-black font-semibold'>
@@ -41,12 +44,14 @@ const Features = () => {
                   Get smart suggestions for your contract language while drafting. Next word, phrase, sentence and paragraph.
                 </p>
 
-                <img src={featureAutocompleteSm} className='w-full' alt='Autocomplete' />
+                <video autoPlay muted loop>
+                  <source src={videoAutocomplete} type='video/mp4'></source>
+                </video>
               </Disclosure.Panel>
             </>
           )}
         </Disclosure>
-        <Disclosure as='div' className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 '>
+        <Disclosure as='div' className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 overflow-hidden'>
           {() => (
             <>
               <Disclosure.Button className='w-full justify-between px-4 py-5 text-center text-xl text-lizzy-black font-semibold'>
@@ -57,12 +62,14 @@ const Features = () => {
                   Ask Lizzy to suggest language for any contract clause or definition. Keep language you like as template or use your existing templates.
                 </p>
 
-                <img src={featureDraftSm} className='w-full' alt='Autocomplete' />
+                <video autoPlay muted loop>
+                  <source src={videoDraft} type='video/mp4'></source>
+                </video>
               </Disclosure.Panel>
             </>
           )}
         </Disclosure>
-        <Disclosure as='div' className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 '>
+        <Disclosure as='div' className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 overflow-hidden'>
           {() => (
             <>
               <Disclosure.Button className='w-full justify-between px-4 py-5 text-center text-xl text-lizzy-black font-semibold'>
@@ -73,12 +80,14 @@ const Features = () => {
                   Get notified on non-standard or missing language. Get suggestions to resolve language failures and policy conflicts.
                 </p>
 
-                <img src={featureReviewSm} className='w-full' alt='Autocomplete' />
+                <video autoPlay muted loop>
+                  <source src={videoReview} type='video/mp4'></source>
+                </video>
               </Disclosure.Panel>
             </>
           )}
         </Disclosure>
-        <Disclosure as='div' className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 '>
+        <Disclosure as='div' className='mb-4 last:mb-0 rounded-2xl bg-white bg-opacity-75 overflow-hidden'>
           {() => (
             <>
               <Disclosure.Button className='w-full justify-between px-4 py-5 text-center text-xl text-lizzy-black font-semibold'>
@@ -89,7 +98,9 @@ const Features = () => {
                   Simply ask Lizzy anything on the contract and related documents and get accurate and clear answers, while reviewing the contract
                 </p>
 
-                <img src={featureAnalyseSm} className='w-full' alt='Autocomplete' />
+                <video autoPlay muted loop>
+                  <source src={videoAnalyse} type='video/mp4'></source>
+                </video>
               </Disclosure.Panel>
             </>
           )}

@@ -6,7 +6,7 @@ import homeBgSmUrl from './assets/home-bg-sm.svg';
 
 const Home = () => {
   return (
-    <div className='relative mx-auto mt-28 max-w-7xl px-4 sm:px-6 lg:px-8 pb-24 pt-4 text-center lg:pt-32'>
+    <div className='relative min-h-screen mx-auto mt-28 -mb-28 max-w-7xl px-4 sm:px-6 lg:px-8 pb-24 pt-4 text-center lg:pt-32'>
       <h1 className='mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-5xl'>
         The next generation contract AI
       </h1>
