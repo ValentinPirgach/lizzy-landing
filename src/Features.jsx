@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import featuresBgUrl from './assets/features-bg.svg';
+import featuresBgUrl from './assets/features-bg.png';
 import videoAutocomplete from './assets/web_autocomplete.mp4';
 import videoDraft from './assets/web_draft.mp4';
 import videoReview from './assets/review.mp4';

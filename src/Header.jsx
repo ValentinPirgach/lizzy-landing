@@ -82,11 +82,11 @@ const Heading = () => {
                         'opacity-100',
                         'scale-100',
                       ])}>
-                        <a href="/analytics" className='block w-full p-2'>Home</a>
-                        <a href="/engagement" className='block w-full p-2'>Pricing</a>
-                        <a href="/security" className='block w-full p-2'>FAQ</a>
+                        <a href="/home" className='block w-full p-2'>Home</a>
+                        <a href="/pricing" className='block w-full p-2'>Pricing</a>
+                        <a href="/faq" className='block w-full p-2'>FAQ</a>
                         <hr className='m-2 border-slate-300/40' />
-                        <a href="/integrations" className='block w-full p-2'>Sign in</a>
+                        <a href="/signin" className='block w-full p-2'>Sign in</a>
                       </div>
                     </Popover.Panel>
                   </>
